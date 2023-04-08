@@ -1,0 +1,21 @@
+i.fa-brands.fa-linkedin.fa-2xl:hover
+{
+Color: blue;
+}
+i.fa-brands.fa-github.fa-2xl:hover
+{
+Color: rgb(66, 7, 121);
+}
+ul.list-group.list-group-horizontal
+{
+    background-color: transparent;
+
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover:hover
+{
+    color:rgb(72, 255, 0) ;
+}
+i.fa-solid.fa-user.fa-2xl:hover:hover
+{
+    color:red;
+}
