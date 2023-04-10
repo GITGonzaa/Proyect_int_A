@@ -19,6 +19,7 @@ import { CuerpoComponent } from './components/cuerpo/cuerpo.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 
 
@@ -42,6 +43,7 @@ import { SkillsComponent } from './components/skills/skills.component';
     EducacionComponent,
     ExperienciaComponent,
     SkillsComponent,
+    ProyectosComponent,
   ],
   imports: [
     BrowserModule,
