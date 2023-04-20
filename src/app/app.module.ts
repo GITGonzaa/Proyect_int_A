@@ -36,6 +36,7 @@ import { PortadadashComponent } from './components/portadadash/portadadash.compo
 import { FotoperfildashComponent } from './components/portadadash/fotoperfildash/fotoperfildash.component';
 import { InfosobremidashComponent } from './components/portadadash/infosobremidash/infosobremidash.component';
 import { RedesdashComponent } from './components/navbardash/redesdash/redesdash.component';
+import { LogoutComponent } from './components/modals/logout/logout.component';
 
 
 
@@ -76,6 +77,7 @@ import { RedesdashComponent } from './components/navbardash/redesdash/redesdash.
     FotoperfildashComponent,
     InfosobremidashComponent,
     RedesdashComponent,
+    LogoutComponent,
   ],
   imports: [
     BrowserModule,
