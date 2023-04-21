@@ -12,8 +12,7 @@
         <div class="carousel-caption d-none d-md-block">
           <h5>Estudiante de Ingenieria en la Industria Automotriz</h5>
           <p>Fecha prevista de egreso en el 2025.</p>
-          <button class="btn btn-light me-md-2" type="button">Saber más</button>
-          <button class="btn btn-light " type="button"><i class="fa-solid fa-pen"></i></button>
+          <button class="btn btn-light " type="button" data-bs-toggle="modal" data-bs-target="#carr1edit"><i class="fa-solid fa-pen"></i></button>
           <button class="btn btn-light me-md-2 " type="button"><i class="fa-sharp fa-solid fa-trash"></i></button>
         </div>
       </div>
@@ -21,8 +20,7 @@
         <img src="../../../assets/codigo-computadora-oscura-oficina-noche.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Programador web FULL-STACK junior.</h5>
-          <button class="btn btn-light me-md-2" type="button">Saber más</button>
-          <button class="btn btn-light " type="button"><i class="fa-solid fa-pen"></i></button>
+          <button class="btn btn-light " type="button"  data-bs-toggle="modal" data-bs-target="#carr2edit"><i class="fa-solid fa-pen"></i></button>
           <button class="btn btn-light me-md-2 " type="button"><i class="fa-sharp fa-solid fa-trash"></i></button>
         </div>
       </div>
@@ -30,8 +28,7 @@
         <img src="../../../assets/mercado-divisas-estacion-.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Especialista en inversiones bursatiles.</h5>
-          <button class="btn btn-light me-md-2" type="button">Saber más</button>
-          <button class="btn btn-light " type="button"><i class="fa-solid fa-pen"></i></button>
+          <button class="btn btn-light " type="button" data-bs-toggle="modal" data-bs-target="#carr3edit"><i class="fa-solid fa-pen"></i></button>
           <button class="btn btn-light me-md-2 " type="button"><i class="fa-sharp fa-solid fa-trash"></i></button>
         </div>
       </div>
@@ -40,9 +37,8 @@
         <div class="carousel-caption d-none d-md-block">
           <h5>CONOCIMIENTOS INFORMATICOS.</h5>
           <p>Some representative placeholder content for the third slide.</p>
-          <button class="btn btn-light me-md-2" type="button">Saber más</button>
-          <button class="btn btn-light " type="button"><i class="fa-solid fa-pen"></i></button>
-          <button class="btn btn-light me-md-2 " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-sharp fa-solid fa-trash"></i></button>
+          <button class="btn btn-light " type="button" data-bs-toggle="modal" data-bs-target="#carr4edit"><i class="fa-solid fa-pen"></i></button>
+          <button class="btn btn-light me-md-2 " type="button" ><i class="fa-sharp fa-solid fa-trash"></i></button>
           
         </div>
       </div>
@@ -56,22 +52,11 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-   <!-- Modal -->
-   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-     <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">¿Estas seguro?</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-       <p>Una vez confirmado se eliminara la informacion seleccionada.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Confirmar</button>
-      </div>
-     </div>
-    </div>
-   </div>
+   
+
+
+   <app-carr1edit></app-carr1edit>
+   <app-carr2edit></app-carr2edit>
+   <app-carr3edit></app-carr3edit>
+   <app-carr4edit></app-carr4edit>
   

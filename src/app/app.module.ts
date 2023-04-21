@@ -37,6 +37,18 @@ import { FotoperfildashComponent } from './components/portadadash/fotoperfildash
 import { InfosobremidashComponent } from './components/portadadash/infosobremidash/infosobremidash.component';
 import { RedesdashComponent } from './components/navbardash/redesdash/redesdash.component';
 import { LogoutComponent } from './components/modals/logout/logout.component';
+import { PerfileditComponent } from './components/modals/perfiledit/perfiledit.component';
+import { InfoeditComponent } from './components/modals/infoedit/infoedit.component';
+import { Carr1editComponent } from './components/modals/carr1edit/carr1edit.component';
+import { Carr2editComponent } from './components/modals/carr2edit/carr2edit.component';
+import { Carr3editComponent } from './components/modals/carr3edit/carr3edit.component';
+import { Carr4editComponent } from './components/modals/carr4edit/carr4edit.component';
+import { Exp1editComponent } from './components/modals/exp1edit/exp1edit.component';
+import { Exp2editComponent } from './components/modals/exp2edit/exp2edit.component';
+import { Exp3editComponent } from './components/modals/exp3edit/exp3edit.component';
+import { Educ1editComponent } from './components/modals/educ1edit/educ1edit.component';
+import { Educ2editComponent } from './components/modals/educ2edit/educ2edit.component';
+import { Skill1editComponent } from './components/modals/skill1edit/skill1edit.component';
 
 
 
@@ -78,6 +90,18 @@ import { LogoutComponent } from './components/modals/logout/logout.component';
     InfosobremidashComponent,
     RedesdashComponent,
     LogoutComponent,
+    PerfileditComponent,
+    InfoeditComponent,
+    Carr1editComponent,
+    Carr2editComponent,
+    Carr3editComponent,
+    Carr4editComponent,
+    Exp1editComponent,
+    Exp2editComponent,
+    Exp3editComponent,
+    Educ1editComponent,
+    Educ2editComponent,
+    Skill1editComponent,
   ],
   imports: [
     BrowserModule,
