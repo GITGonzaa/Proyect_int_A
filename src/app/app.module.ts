@@ -49,6 +49,7 @@ import { Exp3editComponent } from './components/modals/exp3edit/exp3edit.compone
 import { Educ1editComponent } from './components/modals/educ1edit/educ1edit.component';
 import { Educ2editComponent } from './components/modals/educ2edit/educ2edit.component';
 import { Skill1editComponent } from './components/modals/skill1edit/skill1edit.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 
 
@@ -105,7 +106,8 @@ import { Skill1editComponent } from './components/modals/skill1edit/skill1edit.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
