@@ -50,6 +50,7 @@ import { Educ1editComponent } from './components/modals/educ1edit/educ1edit.comp
 import { Educ2editComponent } from './components/modals/educ2edit/educ2edit.component';
 import { Skill1editComponent } from './components/modals/skill1edit/skill1edit.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -103,6 +104,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     Educ1editComponent,
     Educ2editComponent,
     Skill1editComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
