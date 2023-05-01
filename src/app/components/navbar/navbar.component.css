@@ -3,3 +3,8 @@
 {
     background-color: #0707f1;
 }
+.container{
+    display:flex;
+    justify-content:space-between;
+
+}

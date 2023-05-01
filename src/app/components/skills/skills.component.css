@@ -4,3 +4,7 @@ h2{
 h4{
     color:white;
 }
+div.row{
+    display: flex;
+    align-items: baseline;
+}
