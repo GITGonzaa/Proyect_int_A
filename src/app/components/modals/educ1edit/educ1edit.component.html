@@ -1,0 +1,33 @@
+<!-- modal de edicion --> 
+<div class="modal fade" id="educ1edit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Editar Educacion</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <!-- Mensaje -->
+        <div class="modal-body">   
+            <label for="formFile" class="form-label">Imagen</label>
+                <input class="form-control" type="file" id="formFile">
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Titulo </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Decripcion (opcional)</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Info footer (opcional)</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+           <!-- BOTONES DE CONFIRMACION -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver atrás</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" routerLink="/dashboard">Guardar cambios</button> 
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,14 @@
+i.fa-brands.fa-linkedin.fa-2xl:hover
+{
+Color: blue;
+}
+i.fa-brands.fa-github.fa-2xl:hover
+{
+Color: rgb(66, 7, 121);
+}
+ul.list-group.list-group-horizontal
+{
+    background-color: transparent;
+    align-items: center;
+
+}
