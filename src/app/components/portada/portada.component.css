@@ -1,5 +1,8 @@
-#port{
-    background-image: url(../../../assets/Body.jpg);
-    background-position: 2rem ;
-    margin-top: 5rem;
+.container{
+    color:white;
+    margin-left: 4px;
+    text-align: justify;
+    margin-top: 0.5rem;
 }
+
+

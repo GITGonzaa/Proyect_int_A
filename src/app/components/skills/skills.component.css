@@ -5,6 +5,7 @@ h4{
     color:white;
 }
 div.row{
-    display: flex;
+    margin:auto;
     align-items: baseline;
+    
 }

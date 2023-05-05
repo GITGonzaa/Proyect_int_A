@@ -6,4 +6,10 @@ h2{
 }
 .card{
     margin-top: 1%;
+    
+}
+#edu{
+    display: flex;
+    justify-content: center;
+
 }
